@@ -1,4 +1,5 @@
 
+from school_schedule.student import Student
 
 #first instance
 quinn = Student(
@@ -38,3 +39,6 @@ claire.summary()
 # Extra:
 # - create a function that will return the student with more classes
 # - create a test for that function
+
+#dir(quinn) -> shows all members in an object
+#dir(vars) -> shows a dictionary of attributes, objects are structured like dictionaries-their attributes
